@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoryHeading {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+}
+
+
+.cat1N {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cat1S {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.animation {
+    border: 1px solid black;
+    height: 84vh;
+    width: 100vw;
+}
+
+.casual_Items_Heading {
+    padding-left: 5vw;
+}
+
+.heading_tshirt {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+    padding-left: 5vw;
+
+}
+
+.Actualtshist {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.productInfo {
+    text-align: center;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.rate {
+    margin-top: 1vh;
+    border-radius: 6px;
+    /* font-family: "Cinzel"; */
+}
+
+.clothsizebutton {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sizebutton {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: "Cinzel";
+}
+
+.clothsizebutton :hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Wishlist {
+    margin-top: 1vh;
+    border: .5px solid black;
+    border-radius: 50px;
+    width: 17.7vw;
+    margin-left: 2vw;
+    font-family: "Cinzel";
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.Wishlist p img {
+    margin-left: 3px;
+    margin-bottom: -2px;
+}
+
+.Wishlist :hover {
+    background-color: #37a0a0;
+    color: white;
+    border-radius: 50px;
+    width: 17.7vw;
+    font-family: "Cinzel";
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.addTocart {
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 17.7vw;
+    margin-left: 2vw;
+    font-family: "Cinzel";
+}
+
+.addTocart :hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 17.7vw;
+    font-family: "Cinzel";
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+
+}
+
+.buynow {
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 17.7vw;
+    margin-left: 2vw;
+    font-family: "Cinzel";
+}
+
+.buynow :hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 17.7vw;
+    font-family: "Cinzel";
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+
+}
+
+.parv {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

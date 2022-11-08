@@ -1,0 +1,290 @@
+/* Common Styles For All Elements */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    margin: 0px;
+}
+
+/* Common Styles Ends For All Elements */
+
+/* //////////////////////////////////////////////////////////////////// */
+
+/* HEADER Style Start */
+
+.full-container{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px rgb(241, 231, 231);
+}
+
+header .container{
+    display: flex;
+}
+
+header .container .logo-image{
+    padding-left: 30px;
+    height: 50px;
+}
+
+header .container .logo-image img{
+    height: 100%;
+    padding-top: 20px;
+    
+}
+
+header .container .product-links{
+    justify-content: center;
+}
+
+header .container .product-links .no-list-style{
+    list-style: none;
+}
+
+header .container .product-links .no-list-style li{
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding-right: 48px;
+    margin-top: -7px;
+}
+
+header .container .product-links .no-list-style li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+header .container .product-links .no-list-style .pink-on-hover a:hover{
+    padding-bottom: 41px;
+    border-bottom: 5px solid hotpink;
+}
+
+header .container .product-links .no-list-style .on-hover a:hover{
+    padding-bottom: 41px;
+    border-bottom: 5px solid rgb(38, 186, 30);
+}
+
+header .container .search-box{
+    margin: auto;
+    margin-left: -1%;
+    display: flex;
+    overflow: hidden;
+    width: 35%;
+}
+
+header .container .search-box input{
+    width: 100%;
+    justify-content: center;
+    height: 38px;
+    border: none;
+    outline: none;
+    background-color: #dde2e6b3;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+    padding-left: 5% ;
+}
+
+header .container .search-box button{
+    outline: none;
+    border: none;
+    background-color: #dde2e6b3;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+}
+
+header .container .search-box:hover{
+    outline: none;
+}
+
+header .container .header-icons{
+    margin-right: 50px;
+}
+
+header .container .header-icons a p{
+    display: flex;
+    margin-top: 0px;
+    font-weight: 600;
+    color: black;
+}
+
+header .container .header-icons a{
+    text-decoration: none;
+}
+
+header .container .user-icons img{
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-left: 7px;
+}
+
+header .container .wishlist-icons img{
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
+header .container .bag-icons img{
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+header .container .header-icons:hover{
+    padding-bottom: 1px;
+    border-bottom: 5px solid hotpink;
+}
+
+.full-container .home-page-wallpapers{
+    min-height: 85vh;
+    width: 100%;
+    background-image: url('Images/header section/wepik-photo-mode-2022928-122518.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.full-container .home-page-wallpapers .Offers{
+    display: inline-block;
+    justify-content:center;
+    padding-top: 8%;
+    padding-left: 67%;
+}
+
+.full-container .home-page-wallpapers .Offers p{
+    font-family: 'Cinzel';
+}
+
+.full-container .home-page-wallpapers .Offers #p1{
+    font-size: 55px;
+}
+
+.full-container .home-page-wallpapers .Offers #p2{
+    font-size: 30px;
+    padding-left: 8%;
+}
+/* HEADER Style Ends Here */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Complete Common Styles For Men Women Beauty Electronics Section Starts */
+
+Main .section-heading h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Cinzel';
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgb(118 133 126) ;
+    text-shadow: linear;
+}
+
+Main .different-section{
+    display: flex;
+    gap: 16px;
+    background-color: #eeeeee;
+}
+
+Main .different-section .products-block .products-image{
+    overflow: hidden;
+    width: 10rem;
+    height: 15rem;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 9px 3px rgb(137 129 129 / 90%);
+}
+
+Main .different-section .products-block .products-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: 0.6s ease-in-out;
+}
+
+Main .different-section .products-block .products-image:hover img{
+    transform: scale(1.2);
+}
+
+Main .different-section .products-block .product-description{
+    text-align: center;
+}
+
+Main .different-section .products-block .product-description p{
+    font-family: 'Livvic';
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #0000006e;
+}
+
+/* Common Styles for Men Women Electronics and beauty Ends Here */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer Styles starts Here */
+
+/* common styles for footer */
+footer{
+    display: flex;
+    gap: 70px;
+    padding-left: 200px;
+    padding-top: 40px;
+    height: auto;
+    background-image: linear-gradient(50deg, #026269 0%, #002b54 74%);
+}
+
+footer .links h3{
+    text-transform:uppercase;
+    font-family: "Quicksand";
+    color: white;
+}
+
+footer .links nav ul{
+    list-style: none;
+    padding: 4px;
+}
+
+footer .links nav ul li{
+    padding-top: 8px;
+}
+
+footer .links nav ul li a{
+    text-decoration: none;
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: white;
+} 
+/* common styles end */
+
+footer .social-media nav ul li{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+footer .logo-of-site{
+    margin-top: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
